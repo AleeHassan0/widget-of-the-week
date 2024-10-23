@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widget_of_the_week/stream/streams_builder.dart';
+import 'package:widget_of_the_week/countryCodePicker/CountryCodePicker.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const StreamsBuilder(),
+      home: const Countrycodepicker(),
     );
   }
 }
